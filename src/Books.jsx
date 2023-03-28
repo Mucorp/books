@@ -56,6 +56,7 @@ const Books = ({ books }) => {
           </div>
         </div>
       </div>
+      {/* Listing of books  */}
       <ul className="books__list">
         {sortedBooks.map((book, index) => (
           <li key={index} className="books__item">
