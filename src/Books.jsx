@@ -69,7 +69,9 @@ const Books = ({ books }) => {
         ))}
 
         {sortedBooks.length === 0 && (
-          <h3 className="books__book-title">No book matches the criteria</h3>
+          <h3 className="books__book-title">
+            No book matches the search criteria
+          </h3>
         )}
       </ul>
     </div>
