@@ -11,6 +11,7 @@ Features
 Technologies Used
 
     React
+    Vite
     Sass
     BEM methodology for CSS
     Tailwind
