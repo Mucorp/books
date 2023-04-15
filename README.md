@@ -44,3 +44,17 @@ Usage
 
     To sort the book list, select a sorting option from the dropdown menu.
     To search the book list, enter a search term in the search bar.
+    
+    
+    
+   
+```mermaid
+graph TD;
+  Main-->Root Component;
+  Root Component-->Login Component
+  Root Component-->Info Component
+  Root Component-->Repos Component
+  Root Component-->Repo Details Component
+
+```
+
