@@ -50,11 +50,11 @@ Usage
    
 ```mermaid
 graph TD;
-  Main-->Root Component;
-  Root Component-->Login Component
-  Root Component-->Info Component
-  Root Component-->Repos Component
-  Root Component-->Repo Details Component
+  Main-->RootComponent;
+  RootComponent-->Login-Component
+  RootComponent-->Info-Component
+  RootComponent-->Repos-Component
+  RootComponent-->Repo-Details-Component
 
 ```
 
