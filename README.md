@@ -1,22 +1,19 @@
-Book List React App
+# SPA
 
-This is a simple React app that displays a list of books and allows you to sort and search through them.
+This is a simple React app that displays some routes to demonstrate SPA Routing.
 Features
 
-    Display a list of books with book cover, title, author, and genre information
-    Sort the book list by title, author, or genre
-    Search the book list by title, author, or genre
-    Responsive design for desktop and mobile devices
+    Added pages like Login, Info, and My Repos
+    Used React Router to implement routing
+    Sidebar to display available routes
+    Error handling on route not found
+    Active route highlighting
 
 Technologies Used
 
     React
     Vite
-    Sass
-    BEM methodology for CSS
-    Tailwind
-    DaisyUi(For table only)
-    ES6 syntax
+    Typescript
     HTML5
     CSS3
 
@@ -24,37 +21,32 @@ Getting Started
 
 Clone the repository:
 
-
-    git clone https://github.com/Mucorp/books.git
+    git clone [git url]
 
 Install dependencies:
 
-
-    cd book
+    cd week-3
     yarn
 
 Run the app:
 
-
     yarn dev
 
-    Open the app in your browser at http://127.0.0.1:5173/books/.
+    Open the app in your browser at http://127.0.0.1:5173
 
 Usage
 
-    To sort the book list, select a sorting option from the dropdown menu.
-    To search the book list, enter a search term in the search bar.
-    
-    
-    
-   
+    Click on the relevant link to access the route
+
+# App Component Structure
+
 ```mermaid
 graph TD;
   Main-->RootComponent;
+  Main-->Error-Component;
   RootComponent-->Login-Component
   RootComponent-->Info-Component
   RootComponent-->Repos-Component
   RootComponent-->Repo-Details-Component
-
+  
 ```
-
